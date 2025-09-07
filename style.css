@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0b0b0b;
+  color: #f8f0c0;
+}
+header {
+  background: linear-gradient(135deg, #4b0082, #2e0854);
+  color: #ffd700;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+nav {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffffff;
+}
+section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 6px solid #ffd700;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  border-radius: 8px;
+}
+footer {
+  background-color: #4b0082;
+  color: #ffd700;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+.buy-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ffd700;
+  color: #1a1a1a;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.buy-button:hover {
+  background-color: #fff;
+}
